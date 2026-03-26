@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="w-full fixed top-0 left-0 z-50 bg-black/50 backdrop-blur-md">
+    <header className="w-full fixed top-0 left-0 z-[9999] bg-black/50 backdrop-blur-md">
       <div className="max-w-[1140px] mx-auto h-[60px] flex items-center justify-between px-4">
         {/* LOGO */}
         <h1 className="text-white font-bold text-lg">tadinhos</h1>
