@@ -4,7 +4,7 @@ import img2 from "../../assets/You/you1.jpg"
 import img3 from "../../assets/You/you1.jpg"
 import img4 from "../../assets/You/you1.jpg"
 
-export default function you() {
+export default function You() {
 const images = [img1, img2, img3, img4];
 
   const [selected, setSelected] = useState(0);

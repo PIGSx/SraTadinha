@@ -7,7 +7,10 @@ import Footer from "../components/Footer";
 // pages
 import Home from "../pages/Home";
 import Gallery from "../pages/Gallery";
+import You from "../pages/You"
+
 import PageNotFound from "../pages/PageNotFound";
+
 
 // layout padrão
 function Layout() {
@@ -28,6 +31,7 @@ function RoutesWrapper() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/you" element={<You/>} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
