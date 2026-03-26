@@ -1,28 +1,35 @@
+// fotos
+
+import banner1 from "../../assets/SliderHome/banner1.mp4";
+import banner1Thumb from "../../assets/SliderHome/banner1.png";
+import banner2 from "../../assets/SliderHome/banner2.jpg";
+import banner3 from "../../assets/SliderHome/banner3.mp4";
+import banner3Thumb from "../../assets/SliderHome/banner3.png";
+import banner4 from "../../assets/SliderHome/banner4.jpg";
+
+// effects
 import { useState, useEffect, useRef } from "react";
+
 
 export default function Slider() {
   const [items] = useState([
-    {
-      video: "/src/assets/SliderHome/banner1.mp4",
-      thumb: "/src/assets/SliderHome/banner1.png",
-      type: "",
-    },
-    {
-      img: "/src/assets/SliderHome/banner2.jpg",
-      thumb: "/src/assets/SliderHome/banner2.jpg",
-      type: "",
-    },
-    {
-      video: "/src/assets/SliderHome/banner3.mp4",
-      thumb: "/src/assets/SliderHome/banner3.png",
-      type: "",
-    },
-    {
-      img: "/src/assets/SliderHome/banner4.jpg",
-      thumb: "/src/assets/SliderHome/banner4.jpg",
-      type: "",
-    },
-  ]);
+  {
+    video: banner1,
+    thumb: banner1Thumb,
+  },
+  {
+    img: banner2,
+    thumb: banner2,
+  },
+  {
+    video: banner3,
+    thumb: banner3Thumb,
+  },
+  {
+    img: banner4,
+    thumb: banner4,
+  },
+]);
 
   const [current, setCurrent] = useState(0);
   const intervalRef = useRef(null);
