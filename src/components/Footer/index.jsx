@@ -7,14 +7,13 @@ function Footer() {
       
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt consequuntur amet culpa
-          cum itaque neque.
+          espero que tenha gostado de toda essa surpresa. qualquer esforço por vale a pena. 
         </p>
       </div>
-    </div>
+    </div>  
 
     <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
-      Copyright &copy; 2025. All rights reserved.
+      Copyright &copy; 2026. All rights reserved.
     </p>
   </div>
 </footer>
