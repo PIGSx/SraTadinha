@@ -19,18 +19,18 @@ export default function HomeGallery() {
             </p>
 
             <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Nossa história em fotos
+              Nossas memórias 
             </h2>
 
             <p className="text-base-content/70 mb-6 max-w-md mx-auto lg:mx-0">
-              Cada imagem conta uma história e registra nossos momentos
+              Cada imagem guarda uma história e eterniza nossos momentos.
             </p>
 
             <Link
               to="/gallery"
               className="inline-flex items-center gap-2 bg-primary text-black px-6 py-3 rounded-full font-medium hover:opacity-90 transition"
             >
-              visualizar mais →
+              explorar memórias →
             </Link>
           </div>
 
