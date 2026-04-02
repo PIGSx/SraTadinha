@@ -17,7 +17,7 @@ export default function LivroHero() {
           
           {/* Download */}
           <a
-            href="/livro.pdf"
+            href="/download/tadinha.pdf"
             download
             className="px-6 py-3 rounded-full text-white font-medium 
             bg-gradient-to-r from-purple-500 to-indigo-500 
